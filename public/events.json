@@ -1,0 +1,30 @@
+[
+  {
+    "monasteryId": 1,
+    "name": "Losar Festival",
+    "date": "2026-02-10",
+    "description": "Tibetan New Year celebration with dances and prayers at Rumtek.",
+    "time": "09:00 AM"
+  },
+  {
+    "monasteryId": 1,
+    "name": "Kagyed Dance",
+    "date": "2025-12-15",
+    "description": "Annual ritual dance at Rumtek Monastery.",
+    "time": "10:00 AM"
+  },
+  {
+    "monasteryId": 2,
+    "name": "Pang Lhabsol",
+    "date": "2025-09-20",
+    "description": "Festival honoring Mount Kanchenjunga at Pemayangtse.",
+    "time": "08:00 AM"
+  },
+  {
+    "monasteryId": 3,
+    "name": "Bumchu Ceremony",
+    "date": "2026-01-25",
+    "description": "Sacred water ceremony at Tashiding Monastery.",
+    "time": "07:00 AM"
+  }
+]

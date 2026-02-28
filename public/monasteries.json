@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Rumtek Monastery",
+    "lat": 27.333,
+    "lng": 88.62,
+    "image": "/images/rumtek/thumbnail1.jpg",
+    "description": "Founded in the 16th century by the Karma Kagyu lineage, Rumtek Monastery serves as the main seat of the Karmapa Lama in exile. Nestled in the hills of Sikkim, it is renowned for its stunning architecture, sacred relics, and vibrant Losar festival, which attracts devotees and tourists alike. The monastery houses a rich collection of thangkas, statues, and manuscripts, offering a deep spiritual experience.",
+    "audioUrls": {
+      "en": "/audio/rumtek/guide_en.mp3",
+      "hi": "/audio/rumtek/guide_hi.mp3"
+    },
+    "gallery": [],
+    "vrPanorama": "/images/rumtek/vr.jpg",
+    "pic1": "/images/rumtek/pic1.jpg",
+    "pic2": "/images/rumtek/pic2.jpg",
+    "pic3": "/images/rumtek/pic3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pemayangtse Monastery",
+    "lat": 27.317,
+    "lng": 88.233,
+    "image": "/images/pemayangtse/thumbnail2.jpg",
+    "description": "Established in 1705 by the Nyingma order, Pemayangtse Monastery is one of the oldest in Sikkim, perched on a hilltop with breathtaking views. This monastery is famous for its unique seven-story wooden structure, adorned with intricate carvings and a sanctum that depicts Guru Padmasambhava’s heavenly palace. It remains a significant center for monastic education and meditation.",
+    "audioUrls": {
+      "en": "/audio/pemayangtse/guide_en.mp3",
+      "hi": "/audio/pemayangtse/guide_hi.mp3"
+    },
+    "gallery": [],
+    "vrPanorama": "/images/pemayangtse/vr.jpg",
+    "pic1": "/images/pemayangtse/pic1.jpg",
+    "pic2": "/images/pemayangtse/pic2.jpg",
+    "pic3": "/images/pemayangtse/pic3.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tashiding Monastery",
+    "lat": 27.283,
+    "lng": 88.267,
+    "image": "/images/tashiding/thumbnail3.jpg",
+    "description": "A sacred site of the Nyingma sect, Tashiding Monastery is located on a hill between the Rathong and Rangeet rivers, believed to be blessed by Guru Padmasambhava. It is renowned for the annual 'Bumchu' ceremony, where holy water is shared, symbolizing purification and prosperity. The serene environment and ancient chortens add to its spiritual allure.",
+    "audioUrls": {
+      "en": "/audio/tashiding/guide_en.mp3",
+      "hi": "/audio/tashiding/guide_hi.mp3"
+    },
+    "gallery": [],
+    "vrPanorama": "/images/tashiding/vr.jpg",
+    "pic1": "/images/tashiding/pic1.jpg",
+    "pic2": "/images/tashiding/pic2.jpg",
+    "pic3": "/images/tashiding/pic3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Enchey Monastery",
+    "lat": 27.333,
+    "lng": 88.617,
+    "image": "/images/enchey/thumbnail4.jpg",
+    "description": "Built over 200 years ago, Enchey Monastery is situated above Gangtok and belongs to the Nyingma school of Tibetan Buddhism. Known for its tantric teachings and colorful festivals, it offers panoramic views of the Kanchenjunga range. The monastery’s peaceful ambiance and historical significance make it a cherished site for visitors.",
+    "audioUrls": {
+      "en": "/audio/enchey/guide_en.mp3",
+      "hi": "/audio/enchey/guide_hi.mp3"
+    },
+    "gallery": [],
+    "vrPanorama": "/images/enchey/vr.jpg",
+    "pic1": "/images/enchey/pic1.jpg",
+    "pic2": "/images/enchey/pic2.jpg",
+    "pic3": "/images/enchey/pic3.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Phodong Monastery",
+    "lat": 27.367,
+    "lng": 88.583,
+    "image": "/images/phodong/thumbnail5.png",
+    "description": "Founded by the Kagyu sect, Phodong Monastery is located near Gangtok and is celebrated for its intricate murals and historical importance. Constructed in the early 18th century, it features a blend of traditional Tibetan architecture and vibrant artwork. The monastery hosts annual festivals that showcase Sikkim’s rich cultural heritage.",
+    "audioUrls": {
+      "en": "/audio/phodong/guide_en.mp3",
+      "hi": "/audio/phodong/guide_hi.mp3"
+    },
+    "gallery": [],
+    "vrPanorama": "/images/phodong/vr.jpg",
+    "pic1": "/images/phodong/pic1.jpg",
+    "pic2": "/images/phodong/pic2.jpg",
+    "pic3": "/images/phodong/pic3.jpg"
+  },
+{
+  "id": 6,
+  "name": "Ralang Monastery",
+  "lat": 27.285,
+  "lng": 88.365,
+  "image": "/images/ralang/thumbnail6.jpg",
+  "description": "Ralang Monastery, located near Ravangla, is one of the most significant monasteries of the Kagyu sect in Sikkim. It is renowned for its grand annual festival Pang Lhabsol and impressive architecture.",
+  "audioUrls": {
+  "en": "/audio/ralang/ralang_en.mp3",
+  "hi": "/audio/ralang/ralang_hi.mp3"
+}
+,
+  "gallery": [],
+  "vrPanorama": "/images/ralang/vr.jpg",
+  "pic1": "/images/ralang/pic1.jpg",
+  "pic2": "/images/ralang/pic2.jpg",
+  "pic3": "/images/ralang/pic3.jpg"
+}
+
+
+]

@@ -1,0 +1,114 @@
+.event-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  width: 320px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #223344;
+  transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-6px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.event-card h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.event-card p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+.tickets-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 1rem;
+}
+
+.tickets-control button {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.tickets-control button:hover {
+  background-color: #388E3C;
+}
+
+.ticket-count {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.book-btn {
+  margin-top: 15px;
+  padding: 12px 0;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+}
+/* ===== Booking Success Popup ===== */
+
+.success-popup {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #28a745;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  animation: fadeInOut 3s ease forwards;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

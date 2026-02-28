@@ -1,0 +1,75 @@
+.aboutus-bg {
+  background-image: url('/bg.jpg'); /* Place your bg image in public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.aboutus-container {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 960px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  color: #2d3748;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+}
+
+.aboutus-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #3813f3;
+  margin-bottom: 40px;
+}
+
+.aboutus-container h2 {
+  font-size: 1.75rem;
+  color: #de1bdb;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.aboutus-container p {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+.aboutus-container ul {
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+.aboutus-container li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .aboutus-container {
+    padding: 24px;
+  }
+
+  .aboutus-heading {
+    font-size: 2.2rem;
+  }
+
+  .aboutus-container h2 {
+    font-size: 1.5rem;
+  }
+}
+.aboutus-container a {
+  color: #de1bdb;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+.aboutus-container a:hover {
+  color: #b91cc9;
+}

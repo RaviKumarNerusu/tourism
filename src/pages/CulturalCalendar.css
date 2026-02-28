@@ -1,0 +1,73 @@
+.cultural-calendar-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+}
+
+.events-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #003366;
+}
+
+.booking-message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.react-calendar {
+  width: 100% !important;
+  max-width: 900px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.15);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto 30px auto;
+  padding: 10px;
+}
+
+.highlight-date {
+  position: relative !important;
+  background-color: #ffc0cb !important; /* pink square */
+  border-radius: 4px !important; /* slight rounding for square */
+  color: black !important;
+}
+
+.highlight-date::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  background-color: #007bff; /* blue dot */
+  border-radius: 50%;
+}
+
+
+.events-on-date {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #003366;
+}
+
+.event-on-date {
+  margin-top: 6px;
+}

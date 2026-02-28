@@ -1,0 +1,170 @@
+/* --- Navbar Component --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--card-background);
+  box-shadow: var(--shadow-light);
+  margin-bottom: 2rem;
+}
+
+.navbar h2 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.navbar li a {
+  font-weight: 600;
+  padding: 0.5rem 0.25rem;
+  transition: border-bottom 0.3s ease;
+}
+
+.navbar li a:hover {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* --- Login Component --- */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.login-form {
+  background-color: var(--card-background);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.login-form label {
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: var(--primary-hover);
+}
+
+.login-form p {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--secondary-text);
+}
+
+/* --- Home & MonasteryDetails Components --- */
+.home-page, .monastery-details-page {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.home-page h1, .monastery-details-page h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.monastery-details-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .monastery-details-grid {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+}
+
+/* --- VRViewer, MapView, & AudioGuide Components --- */
+.map-view-container, .vr-viewer-container, .audio-guide-container {
+  background-color: var(--card-background);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+  margin-bottom: 2rem;
+}
+
+.leaflet-container {
+  border-radius: 8px;
+  height: 400px;
+}
+
+.vr-viewer-container {
+  height: 400px;
+}
+
+.vr-viewer-container a-scene {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* --- Footer Component --- */
+.footer {
+  padding: 2rem;
+  background: var(--text-color);
+  color: var(--background-color);
+  text-align: center;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
